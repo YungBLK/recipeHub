@@ -1,0 +1,14 @@
+<section>
+  <h2>Sign In for share recipes!</h2>
+  <form>
+   <label>
+    <span> Username: </span>
+    <input type="text"  />
+   </label>
+   <label>
+    <span> Password: </span>
+    <input type="password"  />
+   </label>
+  </form>
+  <small>Doesn't have a login yet ? <a href="/signUp">Sign up!</a><small>
+</section>

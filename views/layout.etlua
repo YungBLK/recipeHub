@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title><%= my_app_name  %></title>
+</head>
+<body>
+   <header>
+    <h1><% element("a", { href = "/"}) %>RecipeHub</h1>
+    <nav>
+     <ul>
+       <li><% element("a", { href = "signIn"}) %>SignIn</li>
+     </ul>
+    </nav>
+   </header>
+   <main>
+   <% content_for("inner") %>
+   </main
+   <footer></footer>
+</body>
+</html>

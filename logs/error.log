@@ -1,0 +1,202 @@
+2023/10/21 12:14:38 [alert] 77991#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:20
+2023/10/21 12:14:38 [error] 77991#0: init_by_lua error: init_by_lua(nginx.conf.compiled:14):2: module 'lpeg' not found:
+	no field package.preload['lpeg']
+	no file '/usr/local/openresty/site/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.lua'
+	no file '/usr/local/openresty/lualib/lpeg.lua'
+	no file '/usr/local/openresty/lualib/lpeg/init.lua'
+	no file './lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg.so'
+	no file '/usr/local/openresty/lualib/lpeg.so'
+	no file './lpeg.so'
+	no file '/usr/local/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua(nginx.conf.compiled:14):2: in main chunk
+2023/10/21 12:16:58 [alert] 78400#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:20
+2023/10/21 12:16:58 [error] 78400#0: init_by_lua error: init_by_lua(nginx.conf.compiled:14):2: module 'lpeg' not found:
+	no field package.preload['lpeg']
+	no file '/usr/local/openresty/site/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.lua'
+	no file '/usr/local/openresty/lualib/lpeg.lua'
+	no file '/usr/local/openresty/lualib/lpeg/init.lua'
+	no file './lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg.so'
+	no file '/usr/local/openresty/lualib/lpeg.so'
+	no file './lpeg.so'
+	no file '/usr/local/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua(nginx.conf.compiled:14):2: in main chunk
+2023/10/21 12:17:35 [alert] 78437#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:20
+2023/10/21 12:17:35 [error] 78437#0: init_by_lua error: init_by_lua(nginx.conf.compiled:14):2: module 'lpeg' not found:
+	no field package.preload['lpeg']
+	no file '/usr/local/openresty/site/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.lua'
+	no file '/usr/local/openresty/lualib/lpeg.lua'
+	no file '/usr/local/openresty/lualib/lpeg/init.lua'
+	no file './lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg.so'
+	no file '/usr/local/openresty/lualib/lpeg.so'
+	no file './lpeg.so'
+	no file '/usr/local/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua(nginx.conf.compiled:14):2: in main chunk
+2023/10/21 12:17:57 [alert] 78611#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:20
+2023/10/21 12:17:57 [error] 78611#0: init_by_lua error: init_by_lua(nginx.conf.compiled:14):2: module 'lpeg' not found:
+	no field package.preload['lpeg']
+	no file '/usr/local/openresty/site/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.lua'
+	no file '/usr/local/openresty/lualib/lpeg.lua'
+	no file '/usr/local/openresty/lualib/lpeg/init.lua'
+	no file './lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg.so'
+	no file '/usr/local/openresty/lualib/lpeg.so'
+	no file './lpeg.so'
+	no file '/usr/local/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua(nginx.conf.compiled:14):2: in main chunk
+2023/10/21 12:18:12 [alert] 78626#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:20
+2023/10/21 12:18:12 [error] 78626#0: init_by_lua error: init_by_lua(nginx.conf.compiled:14):2: module 'lpeg' not found:
+	no field package.preload['lpeg']
+	no file '/usr/local/openresty/site/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.lua'
+	no file '/usr/local/openresty/lualib/lpeg.lua'
+	no file '/usr/local/openresty/lualib/lpeg/init.lua'
+	no file './lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg.so'
+	no file '/usr/local/openresty/lualib/lpeg.so'
+	no file './lpeg.so'
+	no file '/usr/local/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua(nginx.conf.compiled:14):2: in main chunk
+2023/10/21 12:23:21 [alert] 79521#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:20
+2023/10/21 12:23:21 [error] 79521#0: init_by_lua error: init_by_lua(nginx.conf.compiled:14):2: module 'lpeg' not found:
+	no field package.preload['lpeg']
+	no file '/usr/local/openresty/site/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.lua'
+	no file '/usr/local/openresty/lualib/lpeg.lua'
+	no file '/usr/local/openresty/lualib/lpeg/init.lua'
+	no file './lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg.so'
+	no file '/usr/local/openresty/lualib/lpeg.so'
+	no file './lpeg.so'
+	no file '/usr/local/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua(nginx.conf.compiled:14):2: in main chunk
+2023/10/21 12:23:41 [alert] 79665#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:20
+2023/10/21 12:23:41 [error] 79665#0: init_by_lua error: init_by_lua(nginx.conf.compiled:14):2: module 'lpeg' not found:
+	no field package.preload['lpeg']
+	no file '/usr/local/openresty/site/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg.ljbc'
+	no file '/usr/local/openresty/lualib/lpeg/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lpeg.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg/init.lua'
+	no file '/usr/local/openresty/lualib/lpeg.lua'
+	no file '/usr/local/openresty/lualib/lpeg/init.lua'
+	no file './lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lpeg/init.lua'
+	no file '/usr/local/openresty/site/lualib/lpeg.so'
+	no file '/usr/local/openresty/lualib/lpeg.so'
+	no file './lpeg.so'
+	no file '/usr/local/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lpeg.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	init_by_lua(nginx.conf.compiled:14):2: in main chunk
+2023/10/21 12:26:00 [alert] 79822#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:16
+2023/10/21 12:26:36 [alert] 79927#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:16
+2023/10/21 12:30:54 [alert] 80134#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 13:49:35 [alert] 81583#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 13:51:03 [alert] 82981#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 13:57:57 [alert] 99885#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 14:00:42 [alert] 100068#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 14:13:13 [alert] 101262#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 14:20:11 [alert] 102375#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 14:21:39 [alert] 104557#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 14:30:03 [alert] 105886#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 14:36:02 [alert] 106220#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 14:38:12 [alert] 106253#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 14:46:04 [alert] 106402#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 15:00:14 [alert] 106769#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 15:02:03 [alert] 106808#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 15:05:08 [alert] 107225#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 15:06:43 [alert] 107253#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 15:16:53 [alert] 107454#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17
+2023/10/21 15:37:28 [alert] 107993#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-rest-api/nginx.conf.compiled:17

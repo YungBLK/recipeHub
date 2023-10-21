@@ -1,0 +1,25 @@
+<section>
+  <h2>Join recipeHub right now and share awesome recipes!</h2>
+  <form>
+   <label>
+    <span> Name: </span>
+    <input type="text"  />
+   </label>
+   <label>
+    <span> Last Name: </span>
+    <input type="text"  />
+   </label>
+   <label>
+    <span> Username: </span>
+    <input type="text"  />
+   </label>
+   <label>
+    <span> Password: </span>
+    <input type="text"  />
+   </label>
+   <label>
+    <span> Confirm Password: </span>
+    <input type="password"  />
+   </label>
+  </form>
+</section>
