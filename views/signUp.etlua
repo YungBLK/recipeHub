@@ -1,25 +1,26 @@
 <section>
   <h2>Join recipeHub right now and share awesome recipes!</h2>
-  <form>
+  <form action="/signup" method="POST">
    <label>
     <span> Name: </span>
-    <input type="text"  />
+    <input name="first_name" type="text" />
    </label>
    <label>
     <span> Last Name: </span>
-    <input type="text"  />
+    <input name="last_name" type="text"  />
    </label>
    <label>
-    <span> Username: </span>
-    <input type="text"  />
+    <span> E-mail: </span>
+    <input name="email" type="text"  />
    </label>
-   <label>
+    <label>
     <span> Password: </span>
-    <input type="text"  />
+    <input name="password" type="text"  />
    </label>
    <label>
     <span> Confirm Password: </span>
-    <input type="password"  />
+    <input name="confirm_password" type="password"  />
    </label>
+   <button type="submit">Submit</button>
   </form>
 </section>
