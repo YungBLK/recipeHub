@@ -1,19 +1,31 @@
 local lapis = require("lapis")
 local app = lapis.Application()
+local respond_to = require("lapis.application").respond_to
 
 app:enable("etlua")
 app.layout = require "views.layout"
 
-app:match("/", function(self)
+app:match("home", "/", function(self)
     self.my_app_name = "RecipeHub"
     return { render = "index"}
 end)
+
 app:match("/signIn", function(self)
   return { render = "signIn"}
 end)
 app:match("/signUp", function(self)
   return { render = "signUp"}
 end)
+
+app:match("/login", respond_to({
+ before = function (self)
+  return "login2"
+ end,
+ POST = function (self)
+       return { redirect_to = self:url_for("home")}
+ end
+ }))
+
 
 
 

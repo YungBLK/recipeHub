@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title><%= my_app_name  %></title>
+  <link rel="stylesheet" href="static/scss/styles.css">
 </head>
 <body>
    <header>
