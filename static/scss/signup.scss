@@ -1,0 +1,36 @@
+
+.form-section {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10rem;
+
+    background-color: white;
+    padding: 1rem 2rem;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+
+    input {
+      padding: 0.5rem;
+      border-radius: 0.2rem;
+      border: 1px solid #b3b3b3;
+    }
+}
+
+.submit-area {
+  margin: 1rem;
+
+  button {
+    wiidth: 100%;
+    padding: 0.8rem;
+    color: white;
+    background-color: #003B45;
+    border: 0px solid;
+    border-radius: 0.2rem;
+    font-size: 16px;
+  }
+
+}

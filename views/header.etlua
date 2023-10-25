@@ -1,8 +1,9 @@
-<header>
+<header class="main-header">
     <h1><% element("a", { href = "/"}) %>RecipeHub</h1>
     <nav>
      <ul>
-       <li><% element("a", { href = "signIn"}) %>SignIn</li>
+         <li><a href="signin">SignIn</a></li>
+         <li><a href="signup">SignUp</a></li>
      </ul>
     </nav>
 </header>

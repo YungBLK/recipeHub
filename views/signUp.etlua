@@ -1,26 +1,30 @@
-<section>
-  <h2>Join recipeHub right now and share awesome recipes!</h2>
+<section class="form-section">
+  <div>
+    <h2>Join recipeHub right now and share awesome recipes!</h2>
+  </div>
   <form action="/signup" method="POST">
-   <label>
+   <label class="input-row">
     <span> Name: </span>
-    <input name="first_name" type="text" />
+    <input name="first_name" type="text" placeholder="Ex.: Jhon"/>
    </label>
-   <label>
+   <label class="input-row">
     <span> Last Name: </span>
-    <input name="last_name" type="text"  />
+    <input name="last_name" type="text" placeholder="Ex.: Doe" />
    </label>
-   <label>
+   <label class="input-row">
     <span> E-mail: </span>
-    <input name="email" type="text"  />
+    <input name="email" type="text" placeholder="Ex.: exemple@gmail.com" />
    </label>
-    <label>
+    <label class="input-row">
     <span> Password: </span>
-    <input name="password" type="text"  />
+    <input name="password" type="password"  />
    </label>
-   <label>
+   <label class="input-row">
     <span> Confirm Password: </span>
     <input name="confirm_password" type="password"  />
    </label>
-   <button type="submit">Submit</button>
+   <div class="submit-area">
+    <button type="submit">Submit</button>
+   </div>
   </form>
 </section>
