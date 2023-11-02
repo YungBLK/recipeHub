@@ -1,12 +1,11 @@
 .main-content-signup {
-    display: flex;
-    justify-content: center;
+
 }
 
 .form-section {
     width: 20%;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
 
     background-color: white;
     padding: 1rem 2rem;
@@ -14,7 +13,8 @@
     .form-header {
         .header-title {
            color: #003B45;
-           font-size: 1.6rem;
+           font-size: 1.8rem;
+           margin-bottom: 2.5rem;
         }
     }
 .input-row {
@@ -22,16 +22,31 @@
     flex-direction: column;
     margin: 1rem;
 
-    span {
-     font-weigth: 400;
-     margin-bottom: 5px;
-     font-size: 1.2rem
+   .field-placeholder {
+      position: relative;
+      top: 7.7px;
+      left: 20px;
+      width: fit-content;
+      background-color: white;
+      border: 1px solid white;
+      font-weight: 500;
+      padding-left: 5px;
+      font-size: 0.8rem;
+      padding-right: 10px;
     }
 
-    input {color: #003B45;
+    input {
+      color: #003B45;
       padding: 1rem;
       border-radius: 0.2rem;
-      border: 1px solid #b3b3b3;
+      border: 1px solid #e5e5e5ba;
+      &:focus {
+        border: 1px solid #fba949;
+      }
+      &:focus-visible {
+        outline: none;
+        border: 1px solid #fba949;
+       }
     }
 
 }
@@ -43,13 +58,13 @@
     width: 100%;
     padding: 0.8rem;
     color: white;
-    background-color: #055a68;
+    background-color: #ff8900;
     border: 0px solid;
     border-radius: 0.2rem;
     font-size: 16px;
-  color: #003B45;}
-
-}
+    color: #FFFFFF;
+  }
+ }
 }
 
 

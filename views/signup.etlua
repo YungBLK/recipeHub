@@ -1,0 +1,33 @@
+<% render("views.header") %>
+<main class="main-content-signup">
+<section class="form-section">
+  <div class="form-header">
+    <h2 class="header-title">Join recipeHub right now and share awesome recipes!</h2>
+  </div>
+  <form action="/signup" method="POST">
+   <label class="input-row">
+    <span class="field-placeholder"> NAME </span>
+    <input name="first_name" type="text"/>
+   </label>
+   <label class="input-row">
+    <span class="field-placeholder"> LAST NAME </span>
+    <input name="last_name" type="text"/>
+   </label>
+   <label class="input-row">
+    <span class="field-placeholder" aria-placeholder> E-MAIL </span>
+    <input name="email" type="text"/>
+   </label>
+    <label class="input-row">
+    <span class="field-placeholder"> PASSWORD </span>
+    <input name="password" type="password" />
+   </label>
+   <label class="input-row">
+    <span class="field-placeholder"> CONFIRM PASSWORD </span>
+    <input name="confirm_password" type="password" />
+   </label>
+   <div class="submit-area">
+    <button type="submit">SUBMIT</button>
+   </div>
+  </form>
+</section>
+<% render("views.referenceFooter") %>

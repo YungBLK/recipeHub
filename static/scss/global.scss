@@ -3,11 +3,16 @@
 body {
  font-family: 'Roboto', sans-serif;
  box-sizing: border-box;
+ background-color: #ff8900;
  margin: 0;
  font-size: 1rem;
+ color: #5c5c5c;
 }
 
-
+a {
+  margin-left: 5px;
+  color: #ffffff;
+}
 
 @media (max-width: 375px) {
     body {
