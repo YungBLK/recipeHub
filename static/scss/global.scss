@@ -3,6 +3,14 @@
 body {
  font-family: 'Roboto', sans-serif;
  box-sizing: border-box;
- background-color: #003B45;
  margin: 0;
+ font-size: 1rem;
+}
+
+
+
+@media (max-width: 375px) {
+    body {
+     font-size: 2rem;
+    }
 }

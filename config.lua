@@ -4,5 +4,5 @@ config("development", {
   server = "nginx",
   code_cache = "off",
   num_workers = "1",
-  port = 9090
+  port = 8080
 })

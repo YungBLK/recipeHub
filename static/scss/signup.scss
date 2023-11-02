@@ -1,3 +1,7 @@
+.main-content-signup {
+    display: flex;
+    justify-content: center;
+}
 
 .form-section {
     width: 20%;
@@ -6,31 +10,74 @@
 
     background-color: white;
     padding: 1rem 2rem;
-}
 
+    .form-header {
+        .header-title {
+           color: #003B45;
+           font-size: 1.6rem;
+        }
+    }
 .input-row {
     display: flex;
     flex-direction: column;
     margin: 1rem;
 
-    input {
-      padding: 0.5rem;
+    span {
+     font-weigth: 400;
+     margin-bottom: 5px;
+     font-size: 1.2rem
+    }
+
+    input {color: #003B45;
+      padding: 1rem;
       border-radius: 0.2rem;
       border: 1px solid #b3b3b3;
     }
+
 }
 
 .submit-area {
   margin: 1rem;
 
   button {
-    wiidth: 100%;
+    width: 100%;
     padding: 0.8rem;
     color: white;
-    background-color: #003B45;
+    background-color: #055a68;
     border: 0px solid;
     border-radius: 0.2rem;
     font-size: 16px;
-  }
+  color: #003B45;}
 
+}
+}
+
+
+
+@media (max-width: 767px) {
+    .form-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      margin-top: 0;
+      width: 100%;
+
+     .form-header {
+       .header-title {
+          font-size: 2rem;
+      }
+     }
+
+    .input-row {
+     span {
+       font-size: 1.3rem
+     }
+     input {
+       padding: 0.5rem;
+       border-radius: 0.2rem;
+       border: 1px solid #b3b3b3;
+      }
+    }
+  }
 }

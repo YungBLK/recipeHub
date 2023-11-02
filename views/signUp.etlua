@@ -1,6 +1,7 @@
+<main class="main-content-signup">
 <section class="form-section">
-  <div>
-    <h2>Join recipeHub right now and share awesome recipes!</h2>
+  <div class="form-header">
+    <h2 class="header-title">Join recipeHub right now and share awesome recipes!</h2>
   </div>
   <form action="/signup" method="POST">
    <label class="input-row">
@@ -17,11 +18,11 @@
    </label>
     <label class="input-row">
     <span> Password: </span>
-    <input name="password" type="password"  />
+    <input name="password" type="password" placeholder="Must have at least 6 characters" />
    </label>
    <label class="input-row">
     <span> Confirm Password: </span>
-    <input name="confirm_password" type="password"  />
+    <input name="confirm_password" type="password" placeholder="Must be"  />
    </label>
    <div class="submit-area">
     <button type="submit">Submit</button>
