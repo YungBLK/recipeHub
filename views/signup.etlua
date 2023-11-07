@@ -1,4 +1,4 @@
-<% render("views.header") %>
+<% render("views.signupHeader") %>
 <main class="main-content-signup">
 <section class="form-section">
   <div class="form-header">

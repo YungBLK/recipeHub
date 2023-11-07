@@ -228,3 +228,7 @@ stack traceback:
 2023/11/01 22:04:23 [alert] 85177#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-1.0.0/nginx.conf.compiled:17
 2023/11/02 12:38:28 [alert] 108789#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-1.0.0/nginx.conf.compiled:17
 2023/11/02 14:13:25 [alert] 114112#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-1.0.0/nginx.conf.compiled:17
+2023/11/03 20:35:53 [alert] 188044#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-1.0.0/nginx.conf.compiled:17
+2023/11/05 14:59:13 [alert] 49416#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-1.0.0/nginx.conf.compiled:17
+2023/11/05 15:07:51 [alert] 51593#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-1.0.0/nginx.conf.compiled:17
+2023/11/05 22:34:48 [alert] 77128#0: lua_code_cache is off; this will hurt performance in /home/yungblk/Projects/recipeHub-1.0.0/nginx.conf.compiled:17

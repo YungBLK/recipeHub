@@ -1,5 +1,5 @@
 .main-header {
-
+    justify-content: space-around;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -11,12 +11,11 @@
     list-style: none;
     display: flex;
     .item {
-      background-color: #ffffff;
-      display: flex;
-      align-items: center;
-      color: #ff8900;
-      box-shadow: 5px -2px 20px 0px black;
-      padding: 0.5rem 2rem;
+        a {
+          text-decoration: none;
+          margin-left: 0.5rem;
+          color: #003b45;
+        }
     }
    }
 
